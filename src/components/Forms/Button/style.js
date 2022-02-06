@@ -6,8 +6,7 @@ const Button = styled.button`
 
     height: 45px;
     
-    width: 90vw;
-    max-width: 300px;
+    width: 100%;
 
     display: flex;
     justify-content: center;

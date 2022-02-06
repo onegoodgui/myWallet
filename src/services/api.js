@@ -18,16 +18,25 @@ function signUp(body) {
   return promise;
 }
 
-function userData(token) {
-  const promise = axios.get(`${BASE_URL}/mainpage/:${token}`);
+function sendEarning(body, config) {
+  const promise = axios.post(`${BASE_URL}/mainpage/new_earning`,body, config);
   
   return promise;
 }
 
+function getAllTransactions(config) {
+  const promise = axios.get(`${BASE_URL}/mainpage/earnings`,config);
+  
+  return promise;
+}
+
+
 const api =  {
     createConfig,
     login,
-    signUp
+    signUp,
+    sendEarning,
+    getAllTransactions: getAllTransactions,
 }
 
 export default api;

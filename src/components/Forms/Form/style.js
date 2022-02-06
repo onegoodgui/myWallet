@@ -7,6 +7,8 @@ justify-content: center;
 
 margin-top: 30px;
 gap: 10px;
+
+width:100%;
 `
 
 export default Form;
