@@ -9,6 +9,8 @@ const List = styled.ul `
  flex-direction: column;
  gap: 3vh;
 
+ overflow-y: scroll;
+
 `
 
 export default List;

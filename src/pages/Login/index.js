@@ -25,7 +25,7 @@ export default function Login(){
 
 
     useEffect(() => {
-        if(sessionData && auth.token){
+        if(sessionData && auth){
             navigate('/mainpage')
         }
     },[])
