@@ -32,16 +32,19 @@ export default function MainPage(){
     
     const name = sessionUser.replace(/\s[a-zA-Z]{0,}/gm, '');
 
-    useEffect(async () => {
-        if(!sessionData || !auth){
-            navigate('/')
+    useEffect( () => {
+        async function dummyFunc(){
+            if(!sessionData || !auth){
+                navigate('/')
+            }
+            else if(balance.length  === 0){
+                const token = api.createConfig(auth);
+                const req = await api.getAllTransactions(token);
+                setBalance(req.data);
+                console.log(req.data);
+            }
         }
-        else if(balance.length  === 0){
-            const token = api.createConfig(auth);
-            const req = await api.getAllTransactions(token);
-            setBalance(req.data);
-            console.log(req.data);
-        }
+        dummyFunc()
     },[])
 
 
