@@ -4,8 +4,12 @@
  <p align='center'>
   <img src='myWallet.gif' style='  display:block; margin: 0 auto;'>
 </p>
-<span>Link for the deploy: https://my-wallet-6vn9218g4-onegoodgui.vercel.app/</span>
+
+<div style="display: flex; flex-direction: column">
+ <span>Link for the deploy: https://my-wallet-6vn9218g4-onegoodgui.vercel.app/</span>
 <span>Link for the API repository: https://github.com/onegoodgui/myWalletAPI</span>
+ </div>
+
 <h1> About </h1>
 
 <p> In this app you can set daily activities and track your 'success' completing them (in time!). Below are the implemented features:</p>
