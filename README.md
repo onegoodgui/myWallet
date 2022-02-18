@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+<h1>myWallet</h1>
+ 
+ <p><b>myWallet</b> is an app created to gather all your intended daily activities, sorted by day of the week, and track your performance fulfilling them. </p>
+ <p align='center'>
+  <img src='myWallet.gif' style='  display:block; margin: 0 auto;'>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1> About </h1>
 
-## Available Scripts
+<p> In this app you can set daily activities and track your 'success' completing them (in time!). Below are the implemented features:</p>
 
-In the project directory, you can run:
+<ul>
+  <li> A login page, that allows you to enter your account if you have already signed up</li>
+  <li> A sign-up page, where you can register an e-mail and password and create an account </li>
+  <li> A page of the day, where you can check the activities you set yourself to do in the current day. In this page, you can click on the activities you have already done and mark them as completed! </li>
+  <li> The day habits tracking wheel, where you can look to quickly see your progress in the day </li>
+  <li> A habits page, where you can find all your activities and manage them as you wish, adding new ones or deleting some. </li>
+  <li> A history page, with a full and functional calendar. You can click on past days, starting from the day you first logged in, to check which activities you completed or missed in each past day.</li>
+  
+ </ul>
 
-### `npm start`
+<h1>Technologies</h1>
+<p>The following tools and frameworks were used in the construction of the project:</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-100000?style=for-the-badge&logo=Axios&logoColor=white&labelColor=05ACFF&color=00A2FF)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h1> How to run </h1>
 
-### `npm test`
+<ol>
+  <li>Clone this repository</li>
+  <li>Open Terminal in your code editor of preference</li>
+  <li>Change the current working directory to the location where you want the cloned directory</li>
+  <li>Type git clone, and then paste the URL you copied earlier.</li>
+</ol>
+<p>
+  
+``` 
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY 
+```
+</p>
+<ol start='5'>
+  <li>Press enter to create your local clone</li>
+  <li> Open the directory where you put your cloned repository with your code editor</li>
+  <li> In the terminal of your code editor, run the command below to install the necessary dependencies:</li>
+</ol>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>
+  
+``` 
+npm i
+```
+</p>
 
-### `npm run build`
+<ol start='8'>
+  <li>Now, to run the code on your web browser, just type the command below:</li>
+</ol>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>
+  
+``` 
+npm run start
+```
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<ol start='9'>
+  <li>Enjoy!</li>
+</ol>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
