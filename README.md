@@ -1,10 +1,10 @@
 <h1>myWallet</h1>
  
- <p><b>myWallet</b> is an app created to gather all your intended daily activities, sorted by day of the week, and track your performance fulfilling them. </p>
+ <p><b>myWallet</b> is an app that allows the user to manage its earnings and expenses in a simple and aesthetically pleasant way. </p>
  <p align='center'>
   <img src='myWallet.gif' style='  display:block; margin: 0 auto;'>
 </p>
-
+<span>Link for the deploy: https://my-wallet-6vn9218g4-onegoodgui.vercel.app/</span>
 <h1> About </h1>
 
 <p> In this app you can set daily activities and track your 'success' completing them (in time!). Below are the implemented features:</p>
