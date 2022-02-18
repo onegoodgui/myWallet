@@ -74,7 +74,7 @@ export default function SignUp(){
                         <ButtonContent/>
                     </Button>
 
-                <Link to={`/`}> 
+                <Link to={`/`} style={{ textDecoration: 'none' }}> 
                     <LinkContent>Já tem uma conta? Entre agora!</LinkContent>
                 </Link>
             </Content>

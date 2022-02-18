@@ -76,7 +76,7 @@ export default function Login(){
                     <ButtonContent/>
                 </Button>
 
-                <Link to={`/sign-up`}> 
+                <Link to={`/sign-up`} style={{ textDecoration: 'none' }}> 
                     <LinkContent>Primeira vez? Cadastre-se!</LinkContent>
                 </Link>
 
