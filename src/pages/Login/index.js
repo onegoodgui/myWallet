@@ -34,18 +34,17 @@ export default function Login(){
         
         setIsLoading(true);
 
-        const user = {email: email, password: password};
+        const user = {email, password};
         
             const promise = api.login(user);
 
             promise.then(res => {
                 setIsLoading(false);
-                console.log(res.data);
                 login(res.data.token);
                 updateSessionData(res.data.user);
                 
                 navigate('/mainpage')}
-                );
+            );
 
             promise.catch(() => {
                 setIsLoading(false);
@@ -73,7 +72,7 @@ export default function Login(){
                 <Form method='post'>
                     {loginItems.map((item, index) => <Input disabled={isLoading === true? true : false} key= {index} placeholder={item.placeholder} type={item.type} onChange={(e) => item.state(e.target.value)}></Input> )}                    
                 </Form>
-                <Button onClick={() => RequestLogin()}>
+                <Button onClick={RequestLogin}>
                     <ButtonContent/>
                 </Button>
 

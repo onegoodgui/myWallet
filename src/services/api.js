@@ -18,8 +18,9 @@ function signUp(body) {
   return promise;
 }
 
-function sendEarning(body, config) {
-  const promise = axios.post(`${BASE_URL}/mainpage/new_earning`,body, config);
+function sendRegistry(body, auth) {
+  const token = createConfig(auth);
+  const promise = axios.post(`${BASE_URL}/mainpage/new_earning`,body, token);
   
   return promise;
 }
@@ -35,7 +36,7 @@ const api =  {
     createConfig,
     login,
     signUp,
-    sendEarning,
+    sendRegistry,
     getAllTransactions: getAllTransactions,
 }
 

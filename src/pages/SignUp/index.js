@@ -39,7 +39,7 @@ export default function SignUp(){
             const promise = api.signUp(user);
 
             promise.then((res) => {
-                console.log(res.data);
+
                 setIsLoading(false);
                 navigate('/');
             });
