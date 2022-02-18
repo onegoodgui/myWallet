@@ -5,23 +5,21 @@
   <img src='myWallet.gif' style='  display:block; margin: 0 auto;'>
 </p>
 
-<div style="display: flex; flex-direction: column">
- <span>Link for the deploy: https://my-wallet-6vn9218g4-onegoodgui.vercel.app/</span>
+<span>Link for the deploy: https://my-wallet-6vn9218g4-onegoodgui.vercel.app/</span> <br>
 <span>Link for the API repository: https://github.com/onegoodgui/myWalletAPI</span>
- </div>
+
 
 <h1> About </h1>
 
-<p> In this app you can set daily activities and track your 'success' completing them (in time!). Below are the implemented features:</p>
+<p> With this app, you can register your earnings and expenses in a simple way. Below are the implemented features:</p>
 
 <ul>
   <li> A login page, that allows you to enter your account if you have already signed up</li>
   <li> A sign-up page, where you can register an e-mail and password and create an account </li>
-  <li> A page of the day, where you can check the activities you set yourself to do in the current day. In this page, you can click on the activities you have already done and mark them as completed! </li>
-  <li> The day habits tracking wheel, where you can look to quickly see your progress in the day </li>
-  <li> A habits page, where you can find all your activities and manage them as you wish, adding new ones or deleting some. </li>
-  <li> A history page, with a full and functional calendar. You can click on past days, starting from the day you first logged in, to check which activities you completed or missed in each past day.</li>
-  
+  <li> The mainpage, where you can see all of your added registries. Each registry also shows the day and month it was added, allowing the user to easily trace by date any of the registries </li>
+  <li> A balance calculator, which sums all of your earnings and subtracts all of your expenses to give you the amount you have available (or owe!) </l1>
+  <li> 'New earning' and 'New expense' pages, with a text input for the description of the registry and a numerical input for the amount </li>
+  <li> An exit icon, allowing the users to log out whenever they want </li>  
  </ul>
 
 <h1>Technologies</h1>
@@ -31,6 +29,10 @@
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-100000?style=for-the-badge&logo=Axios&logoColor=white&labelColor=05ACFF&color=00A2FF)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 <h1> How to run </h1>
 
