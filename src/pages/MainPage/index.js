@@ -32,30 +32,35 @@ export default function MainPage(){
             if(!sessionData || !auth){
                 navigate('/')
             }
-            else if(balance.length  === 0){
                 
-                const token = api.createConfig(auth);
-                const req = await api.getAllTransactions(token);
-                setBalance(req.data);
 
-
+            const token = api.createConfig(auth);
+            const req = await api.getAllTransactions(token);
+            setBalance(req.data);
+            
+            if(req.status !== 200){
+                setLoading(true)
             }
+            else{
+                setLoading(false)
+            }
+            
         }
         dummyFunc()
 
-    },[])
-
-    useEffect(() => {
-
-        if(balance.length === 0){
-            setLoading(true);
-        }
-        else{
-            setLoading(false)
-        }
     },[balance])
 
-    
+    // useEffect(() => {
+
+    //     if(balance.length === 0){
+    //         setLoading(true);
+    //     }
+    //     else{
+    //         setLoading(false)
+    //     }
+    // },[balance])
+
+
     function Logout(){
         login(null);
         updateSessionData(null);
